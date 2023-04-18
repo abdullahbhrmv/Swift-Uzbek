@@ -25,4 +25,18 @@ let maximumNumberOfLoginAttempts = 10
 var currentLoginAttempt = 0
 ```
 
+**Ushbu kodni quyidagicha o'qish mumkin:**
 
+**'MaxsimumNumberOfLoginAttempts deb nomlangan yangi konstantani e'lon qiling va unga 10 qiymatini bering. Keyin, currentLoginAttempt deb nomlangan yangi o'zgaruvchini e'lon qiling va unga 0 boshlang'ich qiymatini bering.'**
+
+**Ushbu misolda ruxsat etilgan kirish urinishlarining maksimal soni doimiy deb e'lon qilinadi, chunki maksimal qiymat hech qachon o'zgarmaydi. Joriy kirishga urinish hisoblagichi o'zgaruvchi sifatida e'lon qilinadi, chunki bu qiymat har bir muvaffaqiyatsiz kirish urinishidan keyin oshirilishi kerak.**
+
+**Bitta satrda vergul bilan ajratilgan bir nechta konstantalarni yoki bir nechta o'zgaruvchilarni e'lon qilishingiz mumkin:**
+
+```swift
+var x = 0.0, y = 0.0, z = 0.0
+```
+
+**_Eslatma_**
+
+>Agar kodingizdagi saqlangan qiymat o'zgarmasa, uni har doim let kalit so'zi bilan doimiy deb e'lon qiling. O'zgaruvchilardan faqat o'zgarishi kerak bo'lgan qiymatlarni saqlash uchun foydalaning.
